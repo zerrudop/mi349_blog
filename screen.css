@@ -1,0 +1,20 @@
+body{
+    background: #ffffff;
+    font-family: Helvetica, sans-serif;
+    border-top: 15px solid #424242;
+    margin: 0;
+    color: #424242;
+}
+
+
+.img1{
+    background: no-repeat bottom / cover url("images/7ee.png");
+    height: 250px;
+    width: 250px;
+}
+
+.img2{
+    background: no-repeat bottom / cover url("images/mirror.png");
+    height: 250px;
+    width: 250px; 
+}
