@@ -46,6 +46,12 @@ tr:nth-child(odd) td {
     width: 250px; 
 }
 
+.selfie{
+    background: no-repeat bottom / cover url("images/linkedin.jpg");
+    height: 300px;
+    width: 250px; 
+}
+
 .comments{
     height: 300px;
     width: 300px;
