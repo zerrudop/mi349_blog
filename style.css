@@ -8,15 +8,18 @@ body{
 }
 
 h1{
+    background: #220041;
+    height: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    position: sticky;
+    top: 30px;
+    left: 30px;
 }
 
 p{
     background-color: rgb(105, 9, 173);
     color:rgb(253, 211, 246);
-    margin: 10px;
-    padding: 10px;
 }
 
 table {
@@ -25,6 +28,7 @@ table {
     letter-spacing: 1px;
     font-size: 0.8rem;
     color: rgb(0,0,0);
+    margin-right: 7%;
 }
   
 td, th {
@@ -50,11 +54,12 @@ tr:nth-child(odd) td {
 
 nav{
     position: sticky;
-    top: 30px;
+    top: 80px;
     left: 30px;
 }
 
 nav a{
+    background-color: #220041;
     float: left;
     color: white;
     text-decoration: none;
@@ -66,14 +71,11 @@ nav a{
 }
 
 .text1{
-    float: right;
-    width: 800px;
+    width: 80%;
+    margin-left: 10%;
 }
 
 .img1{
-    background: no-repeat bottom / cover url("images/7ee.png");
-    height: 250px;
-    width: 250px;
     float: left;
 }
 
@@ -91,27 +93,23 @@ nav a{
 }
 
 .entry2{
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     margin-bottom: 100px;
 }
 
 .text2{
-    float: left;
-    width: 800px;
+    margin-left: 10%;
+    width: 80%;
 }
 
 .img2{
-    background: no-repeat bottom / cover url("images/mirror.png");
-    height: 300px;
-    width: 250px; 
     float: right;
 }
 
 .selfie{
-    background: no-repeat bottom / cover url("images/linkedin.jpg");
-    height: 300px;
-    width: 250px; 
+    float:left;
 }
+
 
 .comments{
     height: 300px;
@@ -121,3 +119,23 @@ nav a{
 a:visited{
     color: rgb(136, 80, 119)
 }
+
+.test{
+    display: flex;
+}
+
+article{
+    display: flex;
+}
+
+article:nth-of-type(1){
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+}
+
+article:nth-of-type(2){
+    padding: 20px;
+    margin: 20px;
+}
+
